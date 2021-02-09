@@ -36,6 +36,19 @@ namespace JsonPalikka
 
 
     }
+    class Henkilö
+    {
+        public string Etunimet { get; set; };
+        public string Sukunimi { get; set; };
+        public int Henkilönumero { get; set; }
+        public string Osoite { get; set; };
+        public string Hetu { get; set; };
+        public string Ammattinimike { get; set; };
+        public int Puhelinnumero { get; set; };
+        public int Palkka { get; set; }
+        public decimal Veroprosentti { get; set; }
 
+
+    }
 
 }
